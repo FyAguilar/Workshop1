@@ -1,10 +1,10 @@
 # Workshop1
 
-##General Description:
+## General Description:
 
 This program simulates a vehicle catalog. It allows you to create engines, cars, trucks, yachts and motorcycles. It also allows you to view the list of created engines and the complete list of vehicles in the catalog.
 
-##Classes:
+## Classes:
 
 **Engine:** This class represents the engine of a vehicle. It has attributes for fuel type (***type_***), horsepower (***potency***) and weight (***weight***). It also has a get_information method that returns a dictionary with the engine information.
 
@@ -12,7 +12,7 @@ This program simulates a vehicle catalog. It allows you to create engines, cars,
 
 **Car, Truck, Yacht, Motorcycle:** These classes inherit from the Vehicle class and implement the specific functionality of each type of vehicle. The information method of these classes calculates the vehicle's consumption using the inherited calculate_consumption method and returns a dictionary with the vehicle's information.
 
-##Functions:
+## Functions:
 
 **principal_menu:** This function displays the main menu on the screen and interacts with the user to obtain the selected option.
 
@@ -22,7 +22,7 @@ This program simulates a vehicle catalog. It allows you to create engines, cars,
 
 **run:** This function is the entry point of the program. It starts a loop that shows the main menu and executes the corresponding functions depending on the option chosen by the user.
 
-##Dictionaries:
+## Dictionaries:
 
 **engines:** This dictionary stores the information of the created engines. The key is the engine name and the value is the dictionary with the information obtained from the get_information method of the Engine class.
 
